@@ -474,7 +474,7 @@ mtcnn::mtcnn(int row, int col){
     nms_threshold[1] = 0.7;
     nms_threshold[2] = 0.7;
 
-    float minl = row>col?row:col;
+    float minl = row>col?col:row;
     int MIN_DET_SIZE = 12;
     int minsize = 60;
     float m = (float)MIN_DET_SIZE/minsize;
