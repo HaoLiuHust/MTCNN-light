@@ -1,4 +1,5 @@
-# MTCNN-light
+some bug fix for mtcnn-light
+# MTCNN-light  
 ## Introduction
 this repository is the implementation of MTCNN with no framework,  Just need opencv and openblas.  
 "Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Neural Networks", implemented with C++，no framework  
